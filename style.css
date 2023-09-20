@@ -1,0 +1,522 @@
+html,
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding: 2% 10%;
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-image: url(./images/автозапчасти-и-груши-безупречный-дизайн-иллюстрация-вектора-156328579.jpg);
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.logo_simvol {
+    padding: 15px;
+    border: 4px solid white;
+    border-radius: 50px;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+.street_number {
+    margin-left: auto;
+}
+
+.logo_text {
+    margin-left: 20px;
+
+}
+
+.logo_text_bottom {
+    color: red;
+    font-size: medium;
+    margin-top: 0%;
+
+}
+
+.logo_text_top {
+    margin-bottom: 0%;
+}
+
+.contact {
+    margin-top: 5px;
+}
+
+.street {
+    font-size: medium;
+}
+
+.h1_1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.h1_text {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header_text_1,
+.header_text_2 {
+    color: rgb(186, 186, 186);
+    font-size: larger;
+}
+
+.header_text_1 {
+    margin-top: 30px;
+}
+
+.recomendation {
+    color: rgb(255, 48, 12);
+    text-shadow: 1px 1px black;
+}
+
+.input_place {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.676);
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+
+.input_place_text {
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.input_place_info,
+.input_place_button_1 {
+    width: 27%;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px 10px;
+}
+
+.input_place_button_1:hover {
+    transform: scale(0.9);
+}
+
+.input_place_button_1:active {
+    transform: scale(1.1);
+}
+
+.input_place_info {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.input_place_button_1 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 3px solid rgb(255, 0, 0);
+    transition-duration: 0.3s;
+
+}
+
+.input_place_information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+
+.red {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.advantages {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    font-size: 150px;
+
+}
+
+.advantages_card {
+    width: 20%;
+}
+
+.offers {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.offer {
+    width: 20%;
+}
+
+.price_place {
+
+    padding: 2% 10%;
+    background-image: url(./images/i-2330985-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text {
+    color: white;
+    text-shadow: 1px 1px black;
+
+}
+
+.text_price_1 {
+    color: white;
+    text-shadow: 1px 1px black;
+    margin: auto;
+    font-size: 40px;
+}
+
+.text_price_2 {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+}
+
+.text_price_3 {
+    font-size: 30px;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.font {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.stages {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.stage {
+    width: 20%;
+}
+
+.special_month {
+
+    padding: 2% 10%;
+    background-image: url(./images/2022-red-car-red-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+
+.contacs {
+    text-align: left;
+    padding: 2% 20%;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 20px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-size: larger;
+}
+
+.img {
+    height: 90px;
+}
+
+.b_text {
+    font-size: 30px;
+}
+
+.b_stage {
+    font-size: 40px;
+    color: red;
+}
+
+.stage_text {
+    font-size: 30px;
+    margin: 0;
+}
+
+.month_text_1 {
+    font-size: 30px;
+    margin: 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.month_text_2 {
+    margin: auto;
+    font-size: 30px;
+    width: 60%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:1100px) {
+    .h1_1 {
+        font-size: 40px;
+    }
+
+    .h1_text {
+        font-size: 20px;
+    }
+
+    .header_text_1,
+    .header_text_2 {
+        font-size: large;
+    }
+
+    .input_place_button_1,
+    .input_place_info {
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 120px;
+    }
+
+    .p {
+        font-size: medium;
+    }
+
+    .font {
+        font-size: 23px;
+    }
+
+    .b_text {
+        font-size: 23px;
+    }
+
+    .text_price_1 {
+        font-size: 30px;
+    }
+
+    .text_price_2 {
+        font-size: 23px;
+    }
+
+    .text_price_3 {
+        font-size: 23px;
+        width: 60%;
+    }
+
+    .b_stage {
+        font-size: 40px;
+    }
+
+    .stage {
+        font-size: 15px;
+    }
+
+    .stage_text {
+        font-size: 23px;
+    }
+
+    .month_text_2 {
+        font-size: 25px;
+        width: 70%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:850px) {
+    .h1_1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .input_place {
+        width: 85%;
+    }
+
+    .h1_text {
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .logo_simvol {
+        padding: 10px;
+    }
+
+    .header_text_1,
+    .header_text_2 {
+        font-size: 17px;
+    }
+
+    .recomendation {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .input_place_text {
+        font-size: 17px;
+    }
+
+    .input_place_button_1,
+    .input_place_info {
+        font-size: 12px;
+    }
+
+    .advantages,
+    .offers,
+    .stages {
+        width: 85%;
+    }
+
+    .icon {
+        font-size: 100px;
+    }
+
+    .p {
+        font-size: medium;
+    }
+
+    .font {
+        font-size: 23px;
+    }
+
+    .b_text {
+        font-size: 23px;
+    }
+
+    .text_price_1 {
+        font-size: 30px;
+    }
+
+    .text_price_2 {
+        font-size: 23px;
+    }
+
+    .text_price_3 {
+        font-size: 23px;
+        width: 60%;
+    }
+
+    .b_stage {
+        font-size: 40px;
+    }
+
+    .stage {
+        font-size: 15px;
+    }
+
+    .stage_text {
+        font-size: 23px;
+    }
+
+    .month_text_2 {
+        font-size: 20px;
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .input_place {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .logo_simvol {
+        padding: 15px;
+    }
+
+    header {
+        padding: 1% 3%;
+    }
+
+    .icon {
+        font-size: 70px;
+    }
+
+    .b_text {
+        font-size: 19px;
+    }
+
+    .p {
+        font-size: 13px;
+    }
+
+    .advantages {
+        width: 95%;
+    }
+
+    .img {
+        height: 70px;
+    }
+    .offers{
+        width: 95%;
+    }
+    .text_price_1{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .text_price_3{
+        font-size: 19px;
+    }
+    .month_text_2{
+        font-size: 19px;
+    }
+
+}
